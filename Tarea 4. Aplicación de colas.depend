@@ -2,18 +2,30 @@
 1771225631 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\aleatorio.cpp
 	<windows.h>
 
-1773444134 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\main.cpp
+1773470546 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\main.cpp
 	<iostream>
 	<ctime>
-	"Persona.hpp"
-
-1773444076 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.cpp
+	<thread>
+	<chrono>
+	"Cola.hpp"
 	"Persona.hpp"
 	"Aleatorio.hpp"
+
+1773470824 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.cpp
+	"Persona.hpp"
+	"Aleatorio.hpp"
+	<iostream>
 	<string>
 
 1773443277 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.hpp
 	<string>
 
 1771225631 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\aleatorio.hpp
+
+1773431451 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cola.hpp
+	<exception>
+	"Cola.tpp"
+
+1773431451 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cola.tpp
+	<iostream>
 

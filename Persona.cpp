@@ -1,6 +1,7 @@
 #include "Persona.hpp"
 #include "Aleatorio.hpp"
 
+#include <iostream>
 #include <string>
 
 string Nombres[] = {"Mar\241a", "Jos\202", "Marian", "Alba", "Ivana",
@@ -33,3 +34,11 @@ int Persona::ObtenerTiempo()
 {
     return tiempoEspera;
 }
+
+/*
+std::ostream & operator<<(std::ostream & salida, const Persona &persona)
+{
+    persona.ObtenerNombre();
+    return salida;
+}
+*/
