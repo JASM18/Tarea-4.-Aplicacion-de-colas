@@ -63,10 +63,10 @@
 1773604012 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\cursor.cpp
 	<windows.h>
 
-1773607541 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.hpp
+1773610375 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.hpp
 	"Persona.hpp"
 
-1773607611 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.cpp
+1773610375 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.cpp
 	"Caja.hpp"
 	<iostream>
 

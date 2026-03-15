@@ -12,6 +12,7 @@ public:
     int ObtenerTiempo();
     string ObtenerNombre();
     bool EstaOcupada();
+    bool Desocupar();
 
 private:
 

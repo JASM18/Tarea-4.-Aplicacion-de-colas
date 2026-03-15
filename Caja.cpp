@@ -28,3 +28,9 @@ bool Caja::EstaOcupada()
 {
     return ocupada;
 }
+
+bool Caja::Desocupar()
+{
+    ocupada = false;
+    return ocupada;
+}

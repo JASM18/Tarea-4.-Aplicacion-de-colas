@@ -28,6 +28,8 @@ int main()
     cout << "===============================\n" << endl;
 
     int tiempoDeAtencion = aleatorio(120, 240);
+    Cola<Persona> colaEspera;
+    Cola<string> colaAtendidos;
     Caja caja1, caja2, caja3;
     int tiempo1, tiempo2, tiempo3;
 
@@ -38,7 +40,6 @@ int main()
     system("pause");
     system("CLS");
 
-    Cola<Persona> colaEspera, colaAtendidos;
 
     int esperaAgregar = aleatorio(0, 15);
 
@@ -63,24 +64,70 @@ int main()
 
 
         //Inicia el proceso de atención
-
-        if (!caja1.EstaOcupada()){
-            caja1.AgregarPersona(colaEspera.ObtenerCabeza());
-            colaEspera.Eliminar();
-
+        if (colaEspera.EstaVacia() && !caja1.EstaOcupada() && !caja2.EstaOcupada() && !caja3.EstaOcupada()){
+            continue;
         }else{
-            //decrementar el contador
-            tiempo = caja1.ObtenerTiempo();
-            tiempo--;
+            //Si la caja está desocupada y hay al menos una persona eperando, se atiende a la persona en la caja 1
+            if (!caja1.EstaOcupada() && !colaEspera.EstaVacia()){
+                caja1.AgregarPersona(colaEspera.ObtenerCabeza());
+                colaEspera.Eliminar();
+                tiempo1 = caja1.ObtenerTiempo();
 
-            //cuando el contador sea 0 agregar a la cola de atendidos
-            if (tiempo == 0){
-                //agregar a cola
-                colaAtendidos.Agregar(Caja.persona);
-                //desocupar
+            //Si la caja está ocupada, si la cola está vacía, o ambos
+            }else if(caja1.EstaOcupada() || colaEspera.EstaVacia())
+                //decrementar el contador
+                tiempo1--;
+
+                //cuando el contador sea 0 agregar a la cola de atendidos
+                if (tiempo1 == 0){
+                    //agregar a cola
+                    colaAtendidos.Agregar(caja1.ObtenerNombre());
+                    //desocupar
+                    caja1.Desocupar();
+                }
+
+            }
+
+            if (!caja2.EstaOcupada() && !colaEspera.EstaVacia()){
+                caja2.AgregarPersona(colaEspera.ObtenerCabeza());
+                colaEspera.Eliminar();
+                tiempo2 = caja2.ObtenerTiempo();
+
+            }else{
+                //decrementar el contador
+                tiempo2--;
+
+                //cuando el contador sea 0 agregar a la cola de atendidos
+                if (tiempo2 == 0){
+                    //agregar a cola
+                    colaAtendidos.Agregar(caja2.ObtenerNombre());
+                    //desocupar
+                    caja2.Desocupar();
+                }
+
+            }
+
+            if (!caja3.EstaOcupada() && !colaEspera.EstaVacia()){
+                caja3.AgregarPersona(colaEspera.ObtenerCabeza());
+                colaEspera.Eliminar();
+                tiempo3 = caja3.ObtenerTiempo();
+
+            }else{
+                //decrementar el contador
+                tiempo3--;
+
+                //cuando el contador sea 0 agregar a la cola de atendidos
+                if (tiempo3 == 0){
+                    //agregar a cola
+                    colaAtendidos.Agregar(caja3.ObtenerNombre());
+                    //desocupar
+                    caja3.Desocupar();
+                }
+
             }
 
         }
+
 
 
         std::this_thread::sleep_for(std::chrono::seconds(1));
