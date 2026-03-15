@@ -29,3 +29,44 @@
 1773431451 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cola.tpp
 	<iostream>
 
+1773516905 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\aleatorio.cpp
+	<windows.h>
+
+1773605793 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\main.cpp
+	<iostream>
+	<ctime>
+	<thread>
+	<chrono>
+	"Cola.hpp"
+	"Persona.hpp"
+	"Aleatorio.hpp"
+	"Caja.hpp"
+
+1773516905 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\cola.hpp
+	<exception>
+	"Cola.tpp"
+
+1773516905 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\cola.tpp
+	<iostream>
+
+1773516905 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\persona.hpp
+	<string>
+
+1773516905 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\aleatorio.hpp
+
+1773517595 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\persona.cpp
+	"Persona.hpp"
+	"Aleatorio.hpp"
+	<iostream>
+	<string>
+
+1773604012 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\cursor.cpp
+	<windows.h>
+
+1773607541 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.hpp
+	"Persona.hpp"
+
+1773607611 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.cpp
+	"Caja.hpp"
+	<iostream>
+
