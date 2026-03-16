@@ -260,6 +260,7 @@ int main()
 
     cout << "\n\nSimulacion terminada." << endl;
 
+    CambiarCursor(ENCENDIDO);
     system("pause");
     return 0;
 }

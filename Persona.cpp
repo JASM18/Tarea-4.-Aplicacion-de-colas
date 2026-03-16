@@ -12,7 +12,7 @@ string Nombres[] = {"Mar\241a", "Jos\202", "Marian", "Alba", "Ivana",
 "Axel", "Azelet", "David", "Aram", "Angel",
 "Isaac", "Denzel", "Fernanda", "Ana", "Jovanna",
 "Carolina", "Alejandro", "Alondra", "Jareth", "Mario",
-"Paulina", "Miguel", "Marco", "Mayra", "Rodrigo"};
+"Paulina", "Miguel", "Marco", "Mayra", "Rodrigo", "Gok\243"};
 
 //**********************************************
 
@@ -29,7 +29,7 @@ string Apellidos[] = {"P\202rez", "G\242mez", "Portugal", "Helleon", "Chenoweth"
 Persona::Persona()
 {
     tiempoEspera = aleatorio(5, 20);
-    int nomAleat = aleatorio(0, 24);
+    int nomAleat = aleatorio(0, 25);
     int apAleat = aleatorio(0, 24);
     nombre = Nombres[nomAleat] + " " + Apellidos[apAleat];
 }
