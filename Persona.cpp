@@ -4,11 +4,17 @@
 #include <iostream>
 #include <string>
 
+//**********************************************
+// CONJUNTO DE NOMBRES Y APELLIDOS
+//**********************************************
+
 string Nombres[] = {"Mar\241a", "Jos\202", "Marian", "Alba", "Ivana",
 "Axel", "Azelet", "David", "Aram", "Angel",
 "Isaac", "Denzel", "Fernanda", "Ana", "Jovanna",
 "Carolina", "Alejandro", "Alondra", "Jareth", "Mario",
 "Paulina", "Miguel", "Marco", "Mayra", "Rodrigo"};
+
+//**********************************************
 
 string Apellidos[] = {"P\202rez", "G\242mez", "Portugal", "Helleon", "Chenoweth",
 "S\240nchez", "G\242nzalez", "Angulo", "Mcgrew", "Dur\242n",
@@ -16,7 +22,10 @@ string Apellidos[] = {"P\202rez", "G\242mez", "Portugal", "Helleon", "Chenoweth"
 "Inzunza", "Cordero", "Rodr\241guez", "Garc\241a", "Ocejo",
 "Boj\242rquez", "Rojas", "Munro", "Murillo", "Real"};
 
-// Constructor
+//**********************************************
+// CONSTRUCTOR
+//**********************************************
+
 Persona::Persona()
 {
     tiempoEspera = aleatorio(5, 20);
@@ -25,20 +34,41 @@ Persona::Persona()
     nombre = Nombres[nomAleat] + " " + Apellidos[apAleat];
 }
 
+//**********************************************
+// MÉTODOS PUBLICOS DE LA CLASE
+//**********************************************
+
 std::string Persona::ObtenerNombre()
 {
     return nombre;
 }
+
+//**********************************************
 
 int Persona::ObtenerTiempo()
 {
     return tiempoEspera;
 }
 
-/*
-std::ostream & operator<<(std::ostream & salida, const Persona &persona)
+//**********************************************
+// FUNCIONES NO-MIEMBRO DE LA CLASE
+//**********************************************
+
+void ImprimirColumnaEspera(Cola<Persona>& fila)
 {
-    persona.ObtenerNombre();
-    return salida;
+    int cantidad = fila.ObtenerNumElem();
+
+    if(cantidad == 0){
+        //std::cout << "Nadie en fila." << std::endl;
+        return;
+    }
+
+    for(int i = 0 ; i < cantidad ; i++){
+        Persona p = fila.ObtenerCabeza();
+        fila.Eliminar();
+
+        std::cout << "- " << p.ObtenerNombre() << std::endl;
+
+        fila.Agregar(p);
+    }
 }
-*/

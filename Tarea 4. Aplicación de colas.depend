@@ -2,23 +2,26 @@
 1771225631 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\aleatorio.cpp
 	<windows.h>
 
-1773470546 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\main.cpp
+1773627870 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\main.cpp
 	<iostream>
 	<ctime>
 	<thread>
 	<chrono>
 	"Cola.hpp"
 	"Persona.hpp"
+	"Caja.hpp"
 	"Aleatorio.hpp"
+	"Cursor.hpp"
 
-1773470824 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.cpp
+1773627870 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.cpp
 	"Persona.hpp"
 	"Aleatorio.hpp"
 	<iostream>
 	<string>
 
-1773443277 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.hpp
+1773627870 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.hpp
 	<string>
+	"Cola.hpp"
 
 1771225631 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\aleatorio.hpp
 
@@ -69,4 +72,16 @@
 1773610375 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.cpp
 	"Caja.hpp"
 	<iostream>
+
+1773627870 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.cpp
+	<iostream>
+	"Caja.hpp"
+
+1773627870 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.hpp
+	"Persona.hpp"
+
+1773609766 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cursor.cpp
+	<windows.h>
+
+1773609766 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cursor.hpp
 

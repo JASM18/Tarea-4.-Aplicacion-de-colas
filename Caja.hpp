@@ -8,10 +8,15 @@ class Caja{
 public:
 
     Caja();
+
     void AgregarPersona(Persona persona);
+
     int ObtenerTiempo();
-    string ObtenerNombre();
+
+    std::string ObtenerNombre();
+
     bool EstaOcupada();
+
     bool Desocupar();
 
 private:
@@ -20,7 +25,5 @@ private:
     Persona persona;
 
 };
-
-
 
 #endif // CAJA_HPP_INCLUDED
