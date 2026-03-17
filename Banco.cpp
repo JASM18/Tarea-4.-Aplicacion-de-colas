@@ -1,3 +1,12 @@
+/**
+ * \file Banco.cpp
+ * Este archivo contiene la implementaci&oacute;n de los m&eacute;todos de la clase Banco y la l&oacute;gica de la simulaci&oacute;n.
+ * \authors
+    S&aacute;nchez Montoy, Jes&uacute;s Axel
+    Portugal Arreola, Marian Bethsab&eacute;
+ * \date 16/03/2026
+ */
+
 #include <iostream>
 #include <thread>
 #include <chrono>

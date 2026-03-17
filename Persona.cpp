@@ -1,3 +1,12 @@
+/**
+ * \file Persona.cpp
+ * Este archivo contiene la implementaci&oacute;n de los m&eacute;todos de la clase Persona y los arreglos de nombres aleatorios.
+ * \authors
+    S&aacute;nchez Montoy, Jes&uacute;s Axel
+    Portugal Arreola, Marian Bethsab&eacute;
+ * \date 13/03/2026
+ */
+
 #include "Persona.hpp"
 #include "Aleatorio.hpp"
 

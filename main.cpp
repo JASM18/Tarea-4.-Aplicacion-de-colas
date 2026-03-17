@@ -1,3 +1,12 @@
+/**
+ * \file main.cpp
+ * Este archivo contiene la ejecuci&oacute;n principal para la simulaci&oacute;n de un banco con una cola de clientes y tres cajas.
+ * \authors
+    S&aacute;nchez Montoy, Jes&uacute;s Axel
+    Portugal Arreola, Marian Bethsab&eacute;
+ * \date 13/03/2026
+ */
+
 #include <iostream>
 #include <ctime>
 
@@ -9,7 +18,6 @@ using namespace std;
 int main()
 {
     srand(time(NULL));
-
 
     try{
 

@@ -2,19 +2,21 @@
 1771225631 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\aleatorio.cpp
 	<windows.h>
 
-1773716323 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\main.cpp
+1773720949 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\main.cpp
 	<iostream>
 	<ctime>
 	"Banco.hpp"
 	"Cursor.hpp"
 
-1773714668 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.cpp
+1773720791 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.cpp
 	"Persona.hpp"
 	"Aleatorio.hpp"
 	<iostream>
 	<string>
 
-1773714635 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.hpp
+1773720525 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\persona.hpp
+	<iostream>
+	"Persona.hpp"
 	<string>
 	"Cola.hpp"
 
@@ -68,11 +70,11 @@
 	"Caja.hpp"
 	<iostream>
 
-1773718429 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.cpp
+1773719076 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.cpp
 	<iostream>
 	"Caja.hpp"
 
-1773717723 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.hpp
+1773719076 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.hpp
 	<string>
 	"Persona.hpp"
 	"Cola.hpp"
@@ -82,7 +84,7 @@
 
 1773609766 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cursor.hpp
 
-1773718429 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\banco.cpp
+1773720524 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\banco.cpp
 	<iostream>
 	<thread>
 	<chrono>
@@ -90,7 +92,11 @@
 	"Aleatorio.hpp"
 	"Cursor.hpp"
 
-1773718128 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\banco.hpp
+1773721082 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\banco.hpp
+	<iostream>
+	<ctime>
+	"Banco.hpp"
+	"Cursor.hpp"
 	<string>
 	"Cola.hpp"
 	"Persona.hpp"
