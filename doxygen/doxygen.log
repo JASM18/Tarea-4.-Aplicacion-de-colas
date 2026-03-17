@@ -1,0 +1,8 @@
+C:/Users/Axel/Desktop/4to semestre/Estructura de Datos/Tareas/Tarea 4. Aplicación de colas/Banco.hpp:84: warning: found documented return type for Banco::IniciarSimulacion that does not return anything
+C:/Users/Axel/Desktop/4to semestre/Estructura de Datos/Tareas/Tarea 4. Aplicación de colas/Banco.hpp:90: warning: found documented return type for Banco::MostrarReporteFinal that does not return anything
+C:/Users/Axel/Desktop/4to semestre/Estructura de Datos/Tareas/Tarea 4. Aplicación de colas/Caja.hpp:63: warning: found documented return type for Caja::AgregarPersona that does not return anything
+C:/Users/Axel/Desktop/4to semestre/Estructura de Datos/Tareas/Tarea 4. Aplicación de colas/Caja.hpp:70: warning: found documented return type for Caja::AtenderMinuto that does not return anything
+C:/Users/Axel/Desktop/4to semestre/Estructura de Datos/Tareas/Tarea 4. Aplicación de colas/Cola.hpp:83: warning: found documented return type for Cola::Agregar that does not return anything
+C:/Users/Axel/Desktop/4to semestre/Estructura de Datos/Tareas/Tarea 4. Aplicación de colas/Cola.hpp:91: warning: found documented return type for Cola::Eliminar that does not return anything
+C:/Users/Axel/Desktop/4to semestre/Estructura de Datos/Tareas/Tarea 4. Aplicación de colas/Cola.hpp:139: warning: found documented return type for Cola::Imprimir that does not return anything
+C:/Users/Axel/Desktop/4to semestre/Estructura de Datos/Tareas/Tarea 4. Aplicación de colas/Cola.hpp:133: warning: found documented return type for Cola::Vaciar that does not return anything
