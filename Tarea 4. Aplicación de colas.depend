@@ -2,7 +2,7 @@
 1771225631 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\aleatorio.cpp
 	<windows.h>
 
-1773720949 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\main.cpp
+1773722542 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\main.cpp
 	<iostream>
 	<ctime>
 	"Banco.hpp"
@@ -22,11 +22,14 @@
 
 1771225631 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\aleatorio.hpp
 
-1773431451 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cola.hpp
+1773723132 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cola.hpp
+	<iostream>
+	<string>
+	"Cola.hpp"
 	<exception>
 	"Cola.tpp"
 
-1773431451 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cola.tpp
+1773722897 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cola.tpp
 	<iostream>
 
 1773516905 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\aleatorio.cpp
@@ -70,11 +73,15 @@
 	"Caja.hpp"
 	<iostream>
 
-1773719076 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.cpp
+1773722159 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.cpp
 	<iostream>
 	"Caja.hpp"
 
-1773719076 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.hpp
+1773722159 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.hpp
+	<iostream>
+	"Caja.hpp"
+	"Persona.hpp"
+	"Cola.hpp"
 	<string>
 	"Persona.hpp"
 	"Cola.hpp"
@@ -84,7 +91,7 @@
 
 1773609766 c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\cursor.hpp
 
-1773720524 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\banco.cpp
+1773722542 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\banco.cpp
 	<iostream>
 	<thread>
 	<chrono>

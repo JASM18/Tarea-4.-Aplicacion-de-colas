@@ -1,3 +1,12 @@
+/**
+ * \file Cola.tpp
+ * Este archivo contiene la implementaci&oacute;n de los m&eacute;todos de la plantilla de clase Cola.
+ * \authors
+    S&aacute;nchez Montoy, Jes&uacute;s Axel
+    Portugal Arreola, Marian Bethsab&eacute;
+ * \date 13/03/2026
+ */
+
 #include <iostream>
 
 //**********************************************

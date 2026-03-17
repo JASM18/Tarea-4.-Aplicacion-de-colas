@@ -50,7 +50,8 @@ void Banco::ImprimirColumnaEspera(Cola<Persona>& fila)
 
 //**********************************************
 
-void Banco::IniciarSimulacion() {
+void Banco::IniciarSimulacion()
+{
     CambiarCursor(APAGADO);
     int esperaAgregar = aleatorio(0, 4);
 
@@ -252,5 +253,4 @@ void Banco::MostrarReporteFinal()
     }
 
     cout << "\n\nSimulacion terminada." << endl;
-
 }

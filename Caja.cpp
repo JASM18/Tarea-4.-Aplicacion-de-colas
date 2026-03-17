@@ -1,3 +1,12 @@
+/**
+ * \file Caja.cpp
+ * Este archivo contiene la implementaci&oacute;n de los m&eacute;todos de la clase Caja.
+ * \authors
+    S&aacute;nchez Montoy, Jes&uacute;s Axel
+    Portugal Arreola, Marian Bethsab&eacute;
+ * \date 15/03/2026
+ */
+
 #include <iostream>
 
 #include "Caja.hpp"

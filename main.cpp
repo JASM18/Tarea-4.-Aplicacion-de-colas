@@ -47,6 +47,7 @@ int main()
         CambiarCursor(ENCENDIDO);
         cerr << "Error: " << error.what();
     }catch(...){
+        CambiarCursor(ENCENDIDO);
         cerr << "El programa tuvo un error inesperado." << endl;
     }
 
