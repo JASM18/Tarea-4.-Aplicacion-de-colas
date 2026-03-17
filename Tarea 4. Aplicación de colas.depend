@@ -35,29 +35,31 @@
 1773516905 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\aleatorio.cpp
 	<windows.h>
 
-1773605793 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\main.cpp
+1773727808 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\main.cpp
 	<iostream>
 	<ctime>
-	<thread>
-	<chrono>
-	"Cola.hpp"
-	"Persona.hpp"
-	"Aleatorio.hpp"
-	"Caja.hpp"
+	"Banco.hpp"
+	"Cursor.hpp"
 
-1773516905 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\cola.hpp
+1773727808 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\cola.hpp
+	<iostream>
+	<string>
+	"Cola.hpp"
 	<exception>
 	"Cola.tpp"
 
-1773516905 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\cola.tpp
+1773727808 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\cola.tpp
 	<iostream>
 
-1773516905 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\persona.hpp
+1773727808 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\persona.hpp
+	<iostream>
+	"Persona.hpp"
 	<string>
+	"Cola.hpp"
 
 1773516905 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\aleatorio.hpp
 
-1773517595 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\persona.cpp
+1773727808 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\persona.cpp
 	"Persona.hpp"
 	"Aleatorio.hpp"
 	<iostream>
@@ -66,12 +68,18 @@
 1773604012 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\cursor.cpp
 	<windows.h>
 
-1773610375 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.hpp
-	"Persona.hpp"
-
-1773610375 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.cpp
-	"Caja.hpp"
+1773727808 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.hpp
 	<iostream>
+	"Caja.hpp"
+	"Persona.hpp"
+	"Cola.hpp"
+	<string>
+	"Persona.hpp"
+	"Cola.hpp"
+
+1773727808 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\caja.cpp
+	<iostream>
+	"Caja.hpp"
 
 1773722159 source:c:\users\axel\desktop\4to semestre\estructura de datos\tareas\tarea 4. aplicación de colas\caja.cpp
 	<iostream>
@@ -108,4 +116,24 @@
 	"Cola.hpp"
 	"Persona.hpp"
 	"Caja.hpp"
+
+1773727808 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\banco.hpp
+	<iostream>
+	<ctime>
+	"Banco.hpp"
+	"Cursor.hpp"
+	<string>
+	"Cola.hpp"
+	"Persona.hpp"
+	"Caja.hpp"
+
+1773604012 e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\cursor.hpp
+
+1773728376 source:e:\github\tarea 4 - aplicación de pilas\tarea-4.-aplicacion-de-colas\banco.cpp
+	<iostream>
+	<thread>
+	<chrono>
+	"Banco.hpp"
+	"Aleatorio.hpp"
+	"Cursor.hpp"
 

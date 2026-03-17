@@ -104,7 +104,7 @@ void Banco::IniciarSimulacion()
         // IMPRIMIR ESTADO
         // ==========
 
-        cout << "Las cajas atenderan a cuantas personas pueda en " << tiempoDeAtencion << " minutos." << endl;
+        cout << "Las cajas atender\240n a cuantas personas pueda en " << tiempoDeAtencion << " minutos." << endl;
         cout << "Reloj: " << i;
 
         // Estado caja 1
@@ -120,7 +120,7 @@ void Banco::IniciarSimulacion()
 
         if(caja1.EstaOcupada()){
             MoverCursor(5, 6);
-            cout << "Tiempo de atencion: " << caja1.ObtenerTiempo() - caja1.ObtenerTiempoRestante();
+            cout << "Tiempo de atenci\242n: " << caja1.ObtenerTiempo() - caja1.ObtenerTiempoRestante();
         }
 
         // Estado caja 2
@@ -136,7 +136,7 @@ void Banco::IniciarSimulacion()
 
         if(caja2.EstaOcupada()){
             MoverCursor(40, 6);
-            cout << "Tiempo de atencion: " << caja2.ObtenerTiempo() - caja2.ObtenerTiempoRestante();
+            cout << "Tiempo de atenci\242n: " << caja2.ObtenerTiempo() - caja2.ObtenerTiempoRestante();
         }
 
         // Estado caja 3
@@ -152,7 +152,7 @@ void Banco::IniciarSimulacion()
 
         if(caja3.EstaOcupada()){
             MoverCursor(80, 6);
-            cout << "Tiempo de atencion: " << caja3.ObtenerTiempo() - caja3.ObtenerTiempoRestante();
+            cout << "Tiempo de atenci\242n: " << caja3.ObtenerTiempo() - caja3.ObtenerTiempoRestante();
         }
 
         // Estado de espera
@@ -177,18 +177,18 @@ void Banco::MostrarReporteFinal()
     system("CLS");
 
     cout << "===================" << endl;
-    cout << "SE ACABO EL TIEMPO" << endl;
+    cout << "SE ACAB\340 EL TIEMPO" << endl;
     cout << "===================" << endl << endl;
 
-    cout << "Termino el tiempo de atención de las cajas (Tiempo: " << tiempoDeAtencion << " min)" << endl;
+    cout << "Termin\242 el tiempo de atenci\242n de las cajas (Tiempo: " << tiempoDeAtencion << " min)" << endl;
 
     // Reporte caja 1
     cout << "\n-> Reporte caja 1:" << endl;
 
     if(caja1.EstaOcupada()){
-        cout << "Terminará de atender a: " << caja1.ObtenerNombre() << endl;
+        cout << "Terminar\240 de atender a: " << caja1.ObtenerNombre() << endl;
     }else{
-        cout << "Termino desocupada." << endl;
+        cout << "Termin\242 desocupada." << endl;
     }
 
     Cola<string> lista1 = caja1.ObtenerHistorial();
@@ -205,9 +205,9 @@ void Banco::MostrarReporteFinal()
     cout << "\n-> Reporte caja 2:" << endl;
 
     if(caja2.EstaOcupada()){
-        cout << "Terminará de atender a: " << caja2.ObtenerNombre() << endl;
+        cout << "Terminar\240 de atender a: " << caja2.ObtenerNombre() << endl;
     }else{
-        cout << "Termino desocupada." << endl;
+        cout << "Termin\242 desocupada." << endl;
     }
 
     Cola<string> lista2 = caja2.ObtenerHistorial();
@@ -224,9 +224,9 @@ void Banco::MostrarReporteFinal()
     cout << "\n-> Reporte caja 3:" << endl;
 
     if(caja3.EstaOcupada()){
-        cout << "Terminará de atender a: " << caja3.ObtenerNombre() << endl;
+        cout << "Terminar\240 de atender a: " << caja3.ObtenerNombre() << endl;
     }else{
-        cout << "Termino desocupada." << endl;
+        cout << "Termin\242 desocupada." << endl;
     }
 
     Cola<string> lista3 = caja3.ObtenerHistorial();
@@ -252,5 +252,5 @@ void Banco::MostrarReporteFinal()
         }
     }
 
-    cout << "\n\nSimulacion terminada." << endl;
+    cout << "\n\nSimulaci\242n terminada." << endl;
 }
