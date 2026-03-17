@@ -34,8 +34,14 @@
 		</Compiler>
 		<Unit filename="Aleatorio.cpp" />
 		<Unit filename="Aleatorio.hpp" />
+		<Unit filename="Banco.cpp" />
+		<Unit filename="Banco.hpp" />
+		<Unit filename="Caja.cpp" />
+		<Unit filename="Caja.hpp" />
 		<Unit filename="Cola.hpp" />
 		<Unit filename="Cola.tpp" />
+		<Unit filename="Cursor.cpp" />
+		<Unit filename="Cursor.hpp" />
 		<Unit filename="Persona.cpp" />
 		<Unit filename="Persona.hpp" />
 		<Unit filename="main.cpp" />
