@@ -49,26 +49,3 @@ int Persona::ObtenerTiempo()
 {
     return tiempoEspera;
 }
-
-//**********************************************
-// FUNCIONES NO-MIEMBRO DE LA CLASE
-//**********************************************
-
-void ImprimirColumnaEspera(Cola<Persona>& fila)
-{
-    int cantidad = fila.ObtenerNumElem();
-
-    if(cantidad == 0){
-        //std::cout << "Nadie en fila." << std::endl;
-        return;
-    }
-
-    for(int i = 0 ; i < cantidad ; i++){
-        Persona p = fila.ObtenerCabeza();
-        fila.Eliminar();
-
-        std::cout << "- " << p.ObtenerNombre() << std::endl;
-
-        fila.Agregar(p);
-    }
-}

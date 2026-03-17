@@ -24,6 +24,4 @@ private:
 
 };
 
-void ImprimirColumnaEspera(Cola<Persona>& fila);
-
 #endif // PERSONA_HPP_INCLUDED
