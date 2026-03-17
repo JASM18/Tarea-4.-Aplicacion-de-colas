@@ -9,6 +9,7 @@
 Caja::Caja()
 {
     ocupada = false;
+    tiempoRestante = 0;
 }
 
 //**********************************************
@@ -19,6 +20,22 @@ void Caja::AgregarPersona(Persona personaAgregar)
 {
     ocupada = true;
     persona = personaAgregar;
+    tiempoRestante = persona.ObtenerTiempo();
+}
+
+//**********************************************
+
+void Caja::AtenderMinuto()
+{
+    if(ocupada){
+
+        tiempoRestante--;
+
+        if(tiempoRestante == 0){
+            listaAtendidos.Agregar(persona.ObtenerNombre());
+            Desocupar();
+        }
+    }
 }
 
 //**********************************************
@@ -30,7 +47,14 @@ int Caja::ObtenerTiempo()
 
 //**********************************************
 
-string Caja::ObtenerNombre()
+int Caja::ObtenerTiempoRestante()
+{
+    return tiempoRestante;
+}
+
+//**********************************************
+
+std::string Caja::ObtenerNombre()
 {
     return persona.ObtenerNombre();
 }
@@ -47,5 +71,13 @@ bool Caja::EstaOcupada()
 bool Caja::Desocupar()
 {
     ocupada = false;
+    tiempoRestante = 0;
     return ocupada;
+}
+
+//**********************************************
+
+Cola<std::string>& Caja::ObtenerHistorial()
+{
+    return listaAtendidos;
 }
